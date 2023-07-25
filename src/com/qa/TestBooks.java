@@ -16,6 +16,13 @@ public class TestBooks {
         for(int x = 0; x < bookArray.length; x++){
             System.out.println(bookArray[x]);
         }
+        Library library = new Library();
+
+        Book book1 = new Book("Book 1", arr, 300);
+        Book book2 = new Book("Book 2", arr, 250);
+
+        library.addBook(book1);
+        library.addBook(book2);
     }
 
 }
